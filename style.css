@@ -1,0 +1,37 @@
+@import url(./styles/header.css);
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --sombra-fundo: #F9FAFB;
+    --preto: #3A404E;
+    --azul: #667085;
+    --vermelho: #8E2424;
+    --preto2: #101828; 
+    --cinza: #98A2B3;
+    --borda-escura: #D0D5DD;
+    --borda-clara: #F9FAFB;
+
+    --ff-inter: 'Inter', sans-serif;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semiBold: 600;
+
+    --fs-1: 14px;
+    --fs-2: 16px;
+    --fs-3: 18px;
+    --fs-4: 20px;
+    --fs-5: 36px;
+    --fs-6: 48px;
+    --fs-7: 60px;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--ff-inter);
+    font-size: var(--fs-2);
+    font-weight: var(--fw-regular);
+}
+
+
+
