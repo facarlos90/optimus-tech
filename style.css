@@ -1,6 +1,7 @@
 @import url(./styles/header.css);
 @import url(./styles/banner.css);
 @import url(./styles/metricas.css);
+@import url(./styles/talentos.css);
 
 :root {
     --cor-de-fundo: #FFFFFF;
@@ -12,6 +13,7 @@
     --cinza: #98A2B3;
     --borda-escura: #D0D5DD;
     --borda-clara: #F9FAFB;
+    --fundo-sub: rgba(142, 36, 36, 0.05);
 
     --ff-inter: 'Inter', sans-serif;
 

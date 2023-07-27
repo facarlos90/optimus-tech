@@ -35,6 +35,10 @@ th, td {
 }
 
 @media screen and (min-width: 1024px) {
+    div#metricas__responsiva {
+        overflow: hidden;
+    }
+
     .metricas__tabela {
         width: 85vw;
         margin: 0 auto;
