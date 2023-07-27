@@ -1,0 +1,45 @@
+.banner {
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    color: var(--vermelho);
+    font-weight: var(--fw-semiBold);
+}
+
+.banner__sub-titulo {
+    color: var(--preto2);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-semiBold);
+    padding: 1em 0;
+}
+
+.banner__texto {
+    color: var(--azul);
+    font-size: var(--fs-3);
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        padding: 5em 7em;
+    }
+    
+    .banner__sub-titulo {
+        font-size: var(--fs-6);
+    }
+
+    .banner__texto {
+        font-size: var(--fs-4);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .banner {
+        padding: 5em 29em;
+    }
+
+    .banner__texto {
+        line-height: 1.8;
+    }
+}
