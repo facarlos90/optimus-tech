@@ -29,7 +29,7 @@
 .talentos__imagem {
     display: block;
     width: 95vw;
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
 }
 
 @media screen and (min-width: 1024px) {

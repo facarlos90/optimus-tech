@@ -1,0 +1,53 @@
+.vagas__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    /* margin: 0 50em; */
+}
+
+.vagas__titulo {
+    color: var(--preto2);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-medium);
+    margin: 2em 0 0 2em;
+}
+
+.vagas__tabela {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    border: solid 1px var(--borda-cinza);
+    border-radius: 16px;
+    padding: 2.5em 0;
+    margin: 0 2em;
+}
+
+.vagas_subtitulo {
+    color: var(--preto2);
+    font-size: var(--fs-3);
+    font-weight: var(--fw-medium);
+    padding-left: 1em;
+}
+
+.vagas__beneficios {
+    display: flex;
+    gap: 2em;
+}
+
+.vagas__texto {
+    color: var(--cinza);
+    font-weight: var(--fw-medium);
+    padding-left: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .vagas__container {
+        margin: 0 14em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .vagas__container {
+        margin: 0 22vw;
+    }
+}
