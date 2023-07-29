@@ -3,6 +3,7 @@
 @import url(./styles/metricas.css);
 @import url(./styles/talentos.css);
 @import url(./styles/vagas.css);
+@import url(./styles/depoimentos.css);
 
 :root {
     --cor-de-fundo: #FFFFFF;
@@ -16,6 +17,7 @@
     --borda-clara: #F9FAFB;
     --borda-cinza: #EAECF0;
     --fundo-sub: rgba(142, 36, 36, 0.05);
+    --fundo-comentario: rgba(195, 25, 25, 0.03);
 
     --ff-inter: 'Inter', sans-serif;
 

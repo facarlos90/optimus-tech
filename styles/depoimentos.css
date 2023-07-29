@@ -1,0 +1,44 @@
+.depoimentos {
+    text-align: center;
+    margin: 4em 3em;
+}
+
+.depoimentos__container {
+    background-color: var(--fundo-comentario);
+    border-radius: 16px;
+    padding: 3em 2em;
+}
+
+.depoimentos__titulo {
+    color: var(--vermelho);
+    font-size: var(--fs-1);
+    font-weight: var(--fw-semiBold);
+}
+
+.depoimentos__texto {
+    color: var(--preto2);
+    font-size: var(--fs-3);
+    font-weight: var(--fw-medium);
+    padding: 1em 0 2em 0;
+}
+
+.depoimentos__imagem {
+    padding-bottom: 1em;
+}
+
+.depoimentos__pessoa {
+    color: var(--preto2);
+    font-size: var(--fs-2);
+    font-weight: var(--fw-medium);
+}
+
+.depoimentos__cargo {
+    color: var(--azul);
+    font-size: var(--fs-1);
+}
+
+@media screen and (min-width: 1024px) {
+    .depoimentos__texto {
+        font-size: var(--fs-5);
+    }
+}
