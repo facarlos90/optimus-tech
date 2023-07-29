@@ -38,7 +38,18 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .depoimentos {
+        margin: 6em 6.4em;
+    }
+    
     .depoimentos__texto {
         font-size: var(--fs-5);
+
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .depoimentos {
+        margin: 6em 10.8em;
     }
 }
