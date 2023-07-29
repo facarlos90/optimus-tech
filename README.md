@@ -2,12 +2,19 @@
 
 O escopo do projeto é o seguinte: uma empresa de TI quer desenvolver uma página destinada a novas contratações e contratou eu para desenvolvê-la.
 
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Optimus-tech**
+| :label: Tecnologias | html, css
+| :rocket: URL         | https://url-deploy.com.br
+| :fire: Desafio     | https://7daysofcode.io/matricula/html-css
+
 ![](https://github.com/facarlos90/optimus-tech/blob/main/banner.png?raw=true)
 
 ## Detalhes do projeto
 
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
 </p>
 
 Projeto referente aos "7 days of Code", um desafio disponilbilizado pela Alura para colocar em prática tudo o que sei de HTML e CSS até agora!
